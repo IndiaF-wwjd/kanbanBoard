@@ -2,14 +2,31 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name= "description" content="Quiz Game by India Forbes.">
+		<meta name= "description" content="Kanban Board">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>India's Quiz Game</title>
-		<link rel="shortcut icon" href="images/favicon.ico">
-		<link rel="stylesheet" href="styles/normalize.css">
+		<title>Kanban Board</title>
 		<link rel="stylesheet" href="styles/style.css">
 	</head>
 	<body>
-		
+		<section class="container">
+			<h1>Simple Kanban Board</h1>
+			
+			<section class="board">
+				
+				<section class="list" id="list1">
+					<h2>To-Do</h2>
+					<section class="card" draggable="true" id="card1">Wash Dishes</section>
+					<section class="card" draggable="true" id="card2">Laundry</section>
+				</section>
+				<section class="list" id="list2">
+					<h2>In Progress</h2>
+					<section class="card" draggable="true" id="card3">Buy Groceries</section>
+				</section>
+				<section class="list" id="list3">
+					<h2>Done</h2>
+				</section>
+			</section>
+		</section>
+		<script src="scrips/script.js"></script>	
 	</body>
 </html>
